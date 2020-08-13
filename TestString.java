@@ -31,13 +31,13 @@ s4=sc.next();
 s5=sc.next();
 int d=0,d1=0;
 int c=sc.nextInt();
+switch (c){
+case 1:
 for(int i=0;i<s4.length();i++)
 {
 d+=s4.charAt(i);
 d1+=s5.charAt(i);
 }
-switch (c){
-case 1:
 sg.X(d,d1);
 break;
 case 2:
