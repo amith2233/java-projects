@@ -60,7 +60,7 @@ for(int i=0;i<str6.length();i++)
 return s7;
 }
 }
-class StringGame extends Secret1
+class TestSecret extends Secret1
   {
   public static void main(String args[])
   {
